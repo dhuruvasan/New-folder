@@ -1,0 +1,1 @@
+{"name":"Local: newww","url":"c:\\vsc code\\python\\New folder\\newww.py","tests":[{"id":1641791731332,"input":"4\n1\n2\n3\n4","output":"10"},{"id":1641793263945,"input":"5\n89\n47\n47\n48\n48","output":"279"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\vsc code\\python\\New folder\\newww.py","group":"local","local":true}

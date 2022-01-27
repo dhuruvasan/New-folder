@@ -1,0 +1,1 @@
+{"name":"Local: tor","url":"c:\\vsc code\\python\\New folder\\tor.py","tests":[{"id":1642664931528,"input":"2\n22","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\vsc code\\python\\New folder\\tor.py","group":"local","local":true}
