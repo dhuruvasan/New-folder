@@ -3,7 +3,6 @@ def encode(st):
     i = 0
     strr=''
     while i < n- 1:
- 
         count = 1
         while (i < n - 1 and st[i] == st[i + 1]):
             count += 1

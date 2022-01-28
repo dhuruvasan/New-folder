@@ -14,3 +14,4 @@ def encode(st):
 
 str='aaabbbcccdss'
 encode(str)
+

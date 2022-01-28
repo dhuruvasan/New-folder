@@ -17,7 +17,6 @@ len=int(input())
 arrr=[]
 for i in range(len):
     temp=int(input())
-
     arrr.append(temp)
 
 alsort(len,arrr)
