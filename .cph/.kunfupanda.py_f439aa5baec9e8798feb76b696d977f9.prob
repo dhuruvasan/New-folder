@@ -1,0 +1,1 @@
+{"name":"Local: kunfupanda","url":"c:\\vsc code\\python\\New folder\\kunfupanda.py","tests":[{"id":1644543589406,"input":"5\n3\n3\n4\n5\n4","output":"11"},{"id":1644544405585,"input":"5\n1\n2\n3\n4\n5","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\vsc code\\python\\New folder\\kunfupanda.py","group":"local","local":true}

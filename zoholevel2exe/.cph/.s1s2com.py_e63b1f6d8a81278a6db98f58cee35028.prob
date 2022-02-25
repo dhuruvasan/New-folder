@@ -1,0 +1,1 @@
+{"name":"Local: s1s2com","url":"c:\\vsc code\\python\\New folder\\zoholevel2exe\\s1s2com.py","tests":[{"id":1645537463623,"input":"abcda\ncbads","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\vsc code\\python\\New folder\\zoholevel2exe\\s1s2com.py","group":"local","local":true}
