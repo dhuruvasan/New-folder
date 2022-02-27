@@ -22,13 +22,13 @@ def reverses(st):
             result[j] = st[i]
             j -= 1
     return ''.join(result)
- 
+
 # Driver code
 if __name__ == "__main__":
- 
+
     st = "go zoho"
     print(reverses(st))
- 
+
 # This code is contributed by ukasp
 
 

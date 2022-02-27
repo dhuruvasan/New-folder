@@ -1,22 +1,30 @@
-def alsort(n,arr):
+def alternateSort(arr, n):
+ 
+    # Sorting the array
     arr.sort()
-    i=0
-    k=n-1
-    kk=n
-    ans=[]
-    while(i<kk):
-        ans.append(arr[k])
-        k=k-1
-        kk=kk-1
-        ans.append(arr[i])
-        i=i+1 
-    for i in range(n):
-        print(ans[i],end=" ")
-
-len=int(input())
-arrr=[]
-for i in range(len):
-    temp=int(input())
-    arrr.append(temp)
-
-alsort(len,arrr)
+ 
+    # Printing the last element of array
+    # first and then first element and then
+    # second last element and then second
+    # element and so on.
+    i = 0
+    j = n-1
+     
+    while (i < j):
+     
+        print(arr[j], end =" ")
+        j-= 1
+        print(arr[i], end =" ")
+        i+= 1
+ 
+    # If the total element in array is odd
+    # then print the last middle element.
+    if (n % 2 != 0):
+        print(arr[i])
+ 
+ 
+# Driver code
+arr = [1, 12, 4, 6, 7, 10]
+n = len(arr)
+ 
+alternateSort(arr, n)

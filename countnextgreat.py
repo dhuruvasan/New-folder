@@ -1,5 +1,5 @@
 def fun(n,arr):
-    k=0  
+    k=0
     for i, j in enumerate(arr[:-1]):
         if j<=arr[i+1]:
             k+=1

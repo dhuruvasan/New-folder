@@ -9,9 +9,6 @@
 # Input#2: 30
 # Output#2 29 31
 
-from re import T
-
-
 def fun2(n):
     if n>1:
         for i in range(2,n):
