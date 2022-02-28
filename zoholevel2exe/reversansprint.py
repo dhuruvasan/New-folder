@@ -15,7 +15,6 @@ def reverses(st):
     for i in range(len(st)):
         # Ignore spaces in input string
         if (st[i] != ' '):
-            print(st[i])
             # Ignore spaces in result.
             if (result[j] == ' '):
                 j -= 1

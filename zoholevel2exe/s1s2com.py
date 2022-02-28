@@ -13,15 +13,28 @@
 
 
 def Fun(s1,s2):
+    l=0
     if(len(s1)==len(s2)):
         k=0
         for i in s1:
             if i in s2:
                 k=k+1
         if(k==len(s1)):
-            print(k)
+            l=1
+    if(l==1):
+        i=len(s1)-1
+        ans=0
+        for i in range(i,0,-1):
+            j=i
+            while (i>=0 and s1[i] != s2[j]):
+                i-=1
+                ans+=1
+            if (i >= 0):
+                i-=1
+                j-=1
+        return ans
 
 
 s1=input()
 s2=input()
-Fun(s1,s2)
+print(Fun(s1,s2))
